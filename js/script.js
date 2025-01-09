@@ -63,42 +63,5 @@ $(document).ready(function() {
         $(".definition9").slideToggle();
         $(".definition1, .definition2, .definition3, .definition4, .definition5, .definition6, .definition7, .definition8").hide();
     });
-
-   
-
-    
-
-    
-    // $('#ipt').click(function () {
-    //     $('.script').hide();
-
-
-
-    //     $('.script').fadeToggle("high");
-    //     $('.high').slideUp("script");
-    // });
-
-
-
-    // $('#boxes').click(function () {
-    //     $('.script').slideUp("")
-    //     $(".script").showClass("")
-    //     $('.high').hideClass("")
-    //     $(".script").hideClass("")
-    //     $('.high').showClass("")
-    // });
-
-    
-      
-    //   $('.cat').click(function () {
-    //     $('.animal2').fadeToggle()
-    //     $('.animal1').fadeOut()
-    //   });
-
-    // $('.femi').click(function () {
-    //     $('#p1').slideToggle()
-    //     $('#p2').slideUp()
-    //   });
-      
    
 });
