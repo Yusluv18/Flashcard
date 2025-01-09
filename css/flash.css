@@ -1,0 +1,157 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat+Subrayada:wght@400;700&family=Montserrat:ital,wght@0,600;1,600&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Redressed&family=Rouge+Script&display=swap') */
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* Utility classes */
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+.button-box{
+    width: 220px;
+    float: right;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 0 80px 10px #ff62244b;
+    display: flex;
+    
+}
+.toggle-btn{
+    padding: 5px 30px;
+    cursor: pointer;
+    background: transparent;
+    position: relative;
+    border: none;
+    outline: none;
+    font-family: "Noto Serif", serif;
+    font-weight: 600;
+}
+.white{
+   background-color: white; 
+}
+.Black{
+    background-color: black;
+}
+.white-text{
+    color: white;
+}
+
+.header{
+    background-color: antiquewhite;
+    width: 35vw;
+    height: 30vh;
+    margin: 30px auto;
+    border-radius: 30px;
+
+    animation: 5s col linear infinite;
+}
+
+
+@keyframes col {
+    0%{background-color: rgba(109, 33, 20, 0.726)};
+
+    25%{background-color: rgb(190, 190, 190)};
+    
+    /* 50%{background-color: white}; */
+    
+    /* 75%{background-color: rgb(190, 190, 190)}; */
+    
+    100%{background-color: rgba(190, 190, 190, 0)};
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: "Noto Serif", serif;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+p{
+    font-size: medium;
+}
+.main{
+    width: 90%;
+    height: 90vh ;
+    background-color: black;
+    margin: 20px auto;
+    border-radius: 40px;
+
+}
+#java{
+    background-color: black;
+    width: 95vw;
+    height: 250vh;
+    margin: 20px auto;
+    border-radius: 40px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    column-gap: 100px;
+}
+.flash1{
+    background-color: aquamarine;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 15px;
+    margin-top: 70px;
+    margin-left: 80px;
+    display: flex;
+}
+.flash2{
+    background-color: blue;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-left: 80px;
+    display: flex;
+}
+.flash3{
+    background-color: greenyellow;
+    width: 35vw;
+    height: 35vh;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+h1{
+    color: white;
+    font-family: "Redressed", serif;
+    font-size: 50px;
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
+    gap: 7px;
+    color: rgb(172, 148, 16);
+    font-family: "Rouge Script", serif;
+   
+}
+#card p{
+font-weight: 600;
+font-size:20px;
+padding: 10px;
+font-family: cursive;
+line-height: 25px;
+background-color:rgba(0, 0, 0, 0.842);
+}
+#card:hover{
+    transition: .3s;
+    opacity: 0.8;
+    scale: 0.9;
+}
